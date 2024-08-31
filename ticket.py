@@ -12,7 +12,7 @@ chrome_options.add_argument("--ignore-certificate-errors")
 chrome_options.add_argument("--disable-blink-features=AutomationControlled")
 
 # Set up Chrome with Service object
-service = Service(executable_path="/Users/Patrick/chromedriver/chromedriver")
+service = Service(executable_path="/Users/Patrick/Downloads/chromedriver/chromedriver")
 driver = webdriver.Chrome(service=service, options=chrome_options)
 
 try:
